@@ -523,11 +523,11 @@
     </hop>
     <hop>
       <from>Table input rental</from>
-      <to>DB lookup inventory</to>
+      <to>DBlookup inventory</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>DB lookup inventory</from>
+      <from>DBlookup inventory</from>
       <to>DBlookup film check</to>
       <enabled>Y</enabled>
     </hop>
@@ -673,7 +673,7 @@
     </step>
 
   <step>
-    <name>DB lookup inventory</name>
+    <name>DBlookup inventory</name>
     <type>DBLookup</type>
     <description/>
     <distribute>Y</distribute>
